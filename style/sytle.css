@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background: #454545;
+}
+
+.head {
+  width: 100%;
+  height: 10vh;
+  background: #2a2a2a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head h2 {
+  font-size: 35px;
+}
+
+.head img {
+  width: 75px;
+  height: 75px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+
+.head nav {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+.head nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #dfdfdf;
+}
+
+.container {
+  width: 100%;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.container-data {
+  width: 70%;
+  margin: 0 20px 0 15px;
+}
+
+.container-img {
+  width: 30%;
+  margin: 0 0 0 100px;
+}
+
+.container-img img {
+  height: 520px;
+  border: none;
+  border-radius: 1%;
+}
+/*# sourceMappingURL=sytle.css.map */
