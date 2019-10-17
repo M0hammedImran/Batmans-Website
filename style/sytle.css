@@ -3,9 +3,26 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #7b7b7b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292929;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222222;
+}
+
 body {
   font-family: "Kanit", sans-serif;
   background: #454545;
+  overflow-y: visible;
 }
 
 .head {
@@ -81,6 +98,104 @@ body {
 
 .container2 {
   height: 100vh;
+  width: 98%;
+  margin: 100px 0 50px 10px;
+  padding: 0 0 0 5px;
+}
+
+.container2 a {
+  text-decoration: none;
+  color: #e63939;
+}
+
+.adversaries {
   width: 100%;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.adversaries img {
+  width: 200px;
+  height: 200px;
+}
+
+.container3 {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+hr {
+  border: 1px solid #272727;
+}
+
+.h1 h1 {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.container3-data {
+  width: 70%;
+  margin: 0 0 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #0c0c0c;
+}
+
+.container3-img {
+  width: 30%;
+  margin: 0 0 0 100px;
+}
+
+.container3-img img {
+  bottom: 420px;
+  height: 320px;
+  border: none;
+  border-radius: 1%;
+}
+
+.container4 {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container4-data {
+  width: 65%;
+  margin: 0 0 0 15px;
+}
+
+.container4-img {
+  width: 35%;
+  margin: 0 0 0 100px;
+}
+
+.container4-img img {
+  width: 420px;
 }
 /*# sourceMappingURL=sytle.css.map */
