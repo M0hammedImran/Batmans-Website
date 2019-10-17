@@ -70,6 +70,10 @@ body {
 .container-data {
   width: 70%;
   margin: 0 20px 0 15px;
+
+  h1 {
+    margin-bottom: 30px;
+  }
 }
 
 .container-img {
@@ -155,6 +159,27 @@ a {
 }
 
 .container4-img {
+  width: 35%;
+  margin: 0 0 0 100px;
+  img {
+    width: 420px;
+  }
+}
+
+.container5 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container5-data {
+  width: 65%;
+  margin: 0 0 0 15px;
+}
+
+.container5-img {
   width: 35%;
   margin: 0 0 0 100px;
   img {
